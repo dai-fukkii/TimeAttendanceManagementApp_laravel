@@ -8,13 +8,12 @@
     </head>
     <body>
         <h1>勤怠管理アプリケーション</h1>
-        <form action="{{ route('login') }}" method="post">
-            @csrf
+        <a href="{{ route('login') }}">
             <button type="submit" name="login">ログイン</button>
-        </form>
-        <form action="{{ route('signup') }}" method="post">
-            @csrf
+        </a>
+        <br>
+        <a href="{{ route('signup') }}">
             <button type="submit" name="signup">サインアップ</button>
-        </form>
+        </a>
     </body>
 </html>
