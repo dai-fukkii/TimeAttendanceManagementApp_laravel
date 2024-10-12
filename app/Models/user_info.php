@@ -14,4 +14,5 @@ class user_info extends Model
     protected $fillable = ['username', 'password'];
 
 
+    
 }
