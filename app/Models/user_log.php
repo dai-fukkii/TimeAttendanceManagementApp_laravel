@@ -11,6 +11,6 @@ class user_log extends Model
 
     protected $table = 'user_log';
 
-    protected $fillable = ['id','status'];
+    protected $fillable = ['user_id','username','status'];
 
 }
