@@ -11,6 +11,6 @@ class user_info extends Model
 
     protected $table = 'user_info';
 
-    protected $fillable = ['username', 'password'];
+    protected $fillable = ['username', 'password','authority'];
 
 }
